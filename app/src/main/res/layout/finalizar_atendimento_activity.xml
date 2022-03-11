@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/parent">
+
+        <TextView
+            android:id="@+id/tvCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cliente: " />
+
+        <TextView
+            android:id="@+id/textViewCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Contato: " />
+
+        <TextView
+            android:id="@+id/textViewContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Data e Horário: " />
+
+        <TextView
+            android:id="@+id/textViewData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Telefone: " />
+
+        <TextView
+            android:id="@+id/textViewTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Endereço: " />
+
+        <TextView
+        android:id="@+id/textViewEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="" />
+
+        <TextView
+            android:id="@+id/tvNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Número: " />
+
+        <TextView
+        android:id="@+id/textViewNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="" />
+
+        <TextView
+            android:id="@+id/tvComplemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Complemento: " />
+
+        <TextView
+            android:id="@+id/textViewComplemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPontoReferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ponto Referência: " />
+
+        <TextView
+            android:id="@+id/textViewPontoReferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bairro: " />
+
+        <TextView
+            android:id="@+id/textViewBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvCidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cidade: " />
+
+        <TextView
+        android:id="@+id/textViewCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="" />
+
+        <TextView
+            android:id="@+id/tvObservacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#318ce7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Observação: " />
+
+        <TextView
+            android:id="@+id/textViewObservacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e32636"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="" />
+
+
+        <EditText
+            android:id="@+id/editTextObsColaborador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint=""
+             />
+
+
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+                 <Button
+                    android:id="@+id/buttonIniciarAtendimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14.5sp"
+                    android:background="#318ce7"
+                    android:onClick="iniciarClick"
+                    android:text="@string/lbIniciarAtendimento"
+                    android:textColor="#FFFFFF" />
+
+
+                <Button
+                    android:id="@+id/buttonFinalizarAtendimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14.5sp"
+                    android:background="#FFFF00"
+                    android:onClick="finalizarClick"
+                    android:text="@string/lbFinalizarAtendimento"
+                    android:textColor="#4682B4"/>
+
+
+
+                <Button
+                    android:id="@+id/buttonInformarAtendimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14.5sp"
+                    android:background="#e32636"
+                    android:onClick="informarClick"
+                    android:text="@string/lbInformarAtendimento"
+                    android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

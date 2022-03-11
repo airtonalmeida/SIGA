@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SIGA</string>
+    <string name="title_activity_mapa">SIGA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_localizacao_atual">Localizacao Atual</string>
+    <string name="title_activity_inicio">Início</string>
+    <string name="title_activity_listar">Listar</string>
+    <string name="title_activity_lista_atendimentos">Lista de Atendimentos</string>
+    <string name="title_activity_finalizar_atendimento">Finalizar Atendimento</string>
+    <string name="lbIniciarAtendimento">Iniciar</string>
+    <string name="lbFinalizarAtendimento">Finalizar</string>
+    <string name="lbInformarAtendimento">Informar</string>
+    <string name="carregando">Carregando lista de atendimentos</string>
+    <string name="logado">0</string>
+    <string name="colaboradorid" />
+
+    <string name="title_activity_sincronizar">Sincronizar</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
